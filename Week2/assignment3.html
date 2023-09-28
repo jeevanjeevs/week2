@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainbox{
+            width: 430px;
+            
+            border: 1px solid black;
+            margin: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-around;
+            
+            
+
+        }
+        .box1{
+            height: 50px;
+            width: 400px;
+            margin: 10px;
+            line-height: 25px;
+
+            background-color: yellow;
+            border: 1px solid black;
+
+        }
+        .box2{
+            margin: 10px;
+            width: 400px;
+            height: 50px;
+            line-height: 25px;
+            
+
+            background-color: greenyellow;
+            border: 1px solid black;
+
+        }
+        .box3{
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+            
+            background-color: violet;
+            border: 1px solid black;
+
+        }
+        
+        .box4{
+            margin: 10px;
+            width: 178px;
+            height: 200px;
+            line-height: 50px;
+            background-color: slategray;
+            border: 1px solid black;
+
+        }
+        .box5{
+            margin: 10px;
+            width: 400px;
+            height: 50px;
+            line-height: 25px;
+            background-color: slateblue;
+            border: 1px solid black;
+
+        }
+        .sectionbox{
+            margin: 5px;
+            border: 1px solid black;
+            background-color: yellow;
+
+        }
+        .section p{
+            margin: 5px;
+            background-color: slategray;
+        }
+        .asideheader{
+            margin: 5px;
+            background-color: orange;
+           
+        }
+        .sectionboxmain{
+            margin: 5px;
+            background-color: slategray;
+            border: 1px solid black;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="mainbox">
+        <div class="box1">
+            <p>HEADER</p>
+
+        </div>
+
+        <div class="box2"><p>NAV</p></div>
+        <div class="box3"><p>MAIN</p>
+            <div class="sectionboxmain">
+                <div class="section">
+                    <p>SECTION</p>
+                    <div class="asideheader">
+                        <header>HEADER</header>
+                    </div>
+                   
+                    <div class="sectionbox">ARTICLE</div>
+                    <div class="sectionbox">ARTICLE</div>
+                    <div class="sectionbox">ARTICLE</div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="box4">ASIDE
+            <div class="asideheader">HEADER</div>
+        </div>
+        <div class="box5"><p>FOOTER</p></div>
+    </div>
+</body>
+</html>
